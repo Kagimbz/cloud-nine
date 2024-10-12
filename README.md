@@ -31,7 +31,7 @@ A weather application that provides real-time weather data and forecasts
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Kagimbz/cloud-nine.git
    ```
 2. Navigate to the application directory:
    ```bash

@@ -3,11 +3,11 @@ A weather application that provides real-time weather data and forecasts
 
 ## Description
 
-**cloud-nine** is a Java Spring Boot application that integrates with the OpenWeatherMap APIs to provide real-time weather data and five-day forecasts for specific locations.
+**cloud-nine** is a Java Spring Boot application that integrates with OpenWeatherMap APIs to provide real-time weather data and five-day forecasts for specific locations.
 
 ## Features
 
-- Fetch current weather data and forecasts from OpenWeatherMap.
+- Fetches current weather data and forecasts from OpenWeatherMap.
 - Asynchronous database operations using R2DBC with MySQL.
 - Spring WebFlux for non-blocking web requests.
 - WebClient for non-blocking integration with OpenWeatherMap APIs.

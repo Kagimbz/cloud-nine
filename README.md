@@ -37,8 +37,9 @@ A weather application that provides real-time weather data and forecasts
    ```bash
    cd cloud-nine
    ```   
-3. Set up the MySQL database and configure the application properties in `src/main/resources/application.properties` with database details.
-4. Run the application using Gradle.
+3. Set up the MySQL database and configure the application properties in `src/main/resources/application.properties` with database details for both R2DBC and Flyway.
+4. Create an OpenWeatherMap account and add the provided API key to the application properties file above under the `open.weather.api_key` property.
+5. Run the application using Gradle.
    ```bash
    ./gradlew bootRun
    ```
